@@ -2,7 +2,10 @@
   "name": "amdorin-nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prisma:studio": "npx prisma studio",
+    "nest": "nx serve amdorin-backend"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
